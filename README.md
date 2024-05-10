@@ -26,7 +26,7 @@ Just install Rust from the [official website](https://www.rust-lang.org/).
 Just run the following to run the program to rename the contents of the `data` directory.
 
 ```bash
-cargo run -- data
+cargo run data
 ```
 
 If you run the above with an empty directory, you will see that the file `.keep` was renamed to the same name (no change).
@@ -37,11 +37,10 @@ In order to actually rename the contents, you need to specify at least one of th
 To use the application, run the following command from the project' directory, using a terminal:
 
 ```bash
-cargo run -- path/to/files --suffix _old --prefix new_ --suffix-to-add .txt --char-map o:n," ":_
+cargo run path/to/files --suffix _old --prefix new_ --suffix-to-add .txt --char-map o:n," ":_
 ```
-
-The above code would make use of the optional arguments for prefix and suffix, 
-and replace the characters o for n, and spaces for underscores.
-
-Actually, the directory where the files are can be specified replacing the `data` directory for your `path/to/files`. 
+The directory where the files are can be specified replacing the `data` directory for your `path/to/files`. 
 The program will rename all files in this directory, with the provided customisations.
+
+Additionally, the above code would make use of the optional arguments for prefix and suffix, 
+and replace the characters o for n, and spaces for underscores.
