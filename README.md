@@ -6,9 +6,9 @@ hoping to use Rust's performance in memory and speed. This is useful,
 f.e. when adding new naming conventions to files within a directory,
 specially if performance is of need with a lot of files.
 
-For ease of use, you can just copy your files the data folder,
+For ease of use, you can just copy your files on the `data/` folder,
 and use some of the many optional arguments for customising your bulk renaming.
-You can also replace the `data` directory for the directory you want to rename files on.
+You can also replace the `data/` directory for the directory you want to rename files on.
 
 The custom `args` for replacing filenames allow for:
 
