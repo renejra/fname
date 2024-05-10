@@ -1,4 +1,5 @@
-# fname : A file renaming program, written in Rust
+# fname
+## A file renaming program, written in Rust
 
 I created this program to quickly rename a bunch of files within a folder.
 This is useful, f.e. when adding new naming conventions to files within a directory.
