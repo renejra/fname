@@ -10,7 +10,7 @@ For ease of use, you can just copy your files the data folder,
 and use some of the many optional arguments for customising your bulk renaming.
 You can also replace the `data` directory for the directory you want to rename files on.
 
-The custom `args` allow for:
+The custom `args` for replacing filenames allow for:
 
 - --suffix: Only rename files with specific suffixes
 - --prefix: Would add a prefix before the file
@@ -29,8 +29,8 @@ Just run the following to run the program to rename the contents of the `data` d
 cargo run -- data
 ```
 
-If you run the above with an empty directory, you will see that the file `.keep` was renamed to the same name.
-In order to actually rename the contents of this directory, or any other you specify
+If you run the above with an empty directory, you will see that the file `.keep` was renamed to the same name (no change).
+In order to actually rename the contents, you need to specify at least one of the optional arguments to make a change.
 
 ## Usage
 
