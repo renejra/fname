@@ -3,9 +3,9 @@ use std::fs;
 use std::path::Path;
 
 fn main() {
-    let matches = App::new("File Renamer")
+    let matches = App::new("fname: File Renamer")
         .version("1.0")
-        .author("Your Name")
+        .author("René Javier Rivero Arrieta")
         .about("Renames files in a directory")
         .arg(
             Arg::with_name("path")
